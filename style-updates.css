@@ -6,6 +6,10 @@
     transform: scale(1) !important;
 }
 
+.title-wrapper-with-link--no-heading {
+    display: none !important;
+}
+
 .grid__item .card-information__wrapper {
     display: flex !important;
     flex-direction: column !important;
