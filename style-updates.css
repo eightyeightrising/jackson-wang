@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+/*home*/
+
+.card:hover .media.media--hover-effect.media--drama-zoom>img:first-child:only-child, .card-wrapper:hover .media.media--hover-effect.media--drama-zoom>img:first-child:only-child {
+    transform: scale(1) !important;
+}
+
+.grid__item .card-information__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrapper:hover .card-information__text {
+    text-decoration: none !important;
+}
+
+.card-wrapper a.full-unstyled-link,
+.card-wrapper .price__regular, 
+.card-wrapper .price__sale
+{
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+}
+
+.card-information__wrapper>*:not(.visually-hidden:first-child)+*:not(.rating) {
+    margin-top: 0.2em !important;
+}
+
+.list-menu__item {
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.header__menu-item:hover span {
+    text-decoration: none !important;
+}
+
+.header__active-menu-item {
+    text-decoration: none !important;  
+}
+
+
+.header-wrapper--border-bottom {
+    border-bottom: 0 !important;
+}
+
+.title-wrapper-with-link {
+    align-items: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-wrapper-with-link h2.title {
+   font-size: 19px;
+     font-family: 'Open Sans', sans-serif !important;
+}
+
+.card--outline:not(.card--soft) {
+    border: 0 !important;
+}
+
+.footer-block__details-content .list-menu__item--link:hover, .copyright__content a:hover {
+    text-decoration: none !important;
+}
+
+.list-menu__item--active {
+    text-decoration: none !important;
+}
+
+/*products*/
+
+.product__text.caption-with-letter-spacing {
+    display: none;
+}
+
+h1.product__title {
+    font-size: 19px;
+     font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 0;
+}
+
+.price .price__regular,
+.price .price__sale {
+    font-size: 13px;
+    line-height: 1em;
+}
+
+.product__info-container h2 {
+    font-size: 13px;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.product__info-container .product__description p,
+.product__info-container .product__description span {
+        font-size: 13px;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.button, .shopify-challenge__button, .customer button {
+    background: #fff !important;
+    color: #000 !important;
+     font-size: 13px;
+    font-weight: 500 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    letter-spacing: 0;
+}
+
+.button span, .shopify-challenge__button span, .customer button span {
+color: #000 !important;
+    font-size: 13px;
+    font-weight: 500 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    letter-spacing: 0;
+}
+
+label.form__label {
+    font-size: 13px;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/*cart*/
+
+a.underlined-link {
+    font-size: 13px;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: none;
+}
+
+product-option {
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+th.caption-with-letter-spacing {
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+small.tax-note.caption-large.rte {
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/*collections*/
+
+.facets__heading.caption-large, label.facet-filters__label.caption-large {
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+summary.facets__summary.caption-large.focus-offset, p#ProductCountDesktop {
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.facet-filters__sort {
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.collection-hero__inner.page-width {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.collection-hero__title {
+     font-size: 19px;
+     font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 0;
+}
+
+/*pages*/
+
+dt h2 {
+    font-size: 19px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+dd p {
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+dd h4, dd h3 {
+    font-size: 13px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1.main-page-title.page-title {
+    font-size: 19px;
+    text-align: center;
+}
+
+#ContactForm input {
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.contact .select__select {
+font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
