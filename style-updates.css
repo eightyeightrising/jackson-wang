@@ -229,3 +229,15 @@ font-size: 13px !important;
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif !important;
 }
+
+/*mobile */
+
+.menu-drawer {
+    border: 0 !important;
+}
+
+a.menu-drawer__menu-item.list-menu__item.link.link--text {
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
