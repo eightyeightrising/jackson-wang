@@ -7,12 +7,12 @@
 }
 
 .grid__item .card-information__wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .card-wrapper:hover .card-information__text {
@@ -26,7 +26,7 @@
     font-size: 13px !important;
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif !important;
-    text-align: center;
+    text-align: center !important;
 }
 
 .card-information__wrapper>*:not(.visually-hidden:first-child)+*:not(.rating) {
@@ -53,12 +53,12 @@
 }
 
 .title-wrapper-with-link {
-    align-items: center;
-    display: flex;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center !important;
+    display: flex !important;
+    align-content: center !important;
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+    justify-content: center !important;
 }
 
 .title-wrapper-with-link h2.title {
@@ -81,30 +81,30 @@
 /*products*/
 
 .product__text.caption-with-letter-spacing {
-    display: none;
+    display: none !important;
 }
 
 h1.product__title {
-    font-size: 19px;
+    font-size: 19px !important;
      font-family: 'Open Sans', sans-serif !important;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 .price .price__regular,
 .price .price__sale {
-    font-size: 13px;
-    line-height: 1em;
+    font-size: 13px !important;
+    line-height: 1em !important;
 }
 
 .product__info-container h2 {
-    font-size: 13px;
+    font-size: 13px !important;
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif !important;
 }
 
 .product__info-container .product__description p,
 .product__info-container .product__description span {
-        font-size: 13px;
+        font-size: 13px !important;
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif !important;
 }
@@ -112,22 +112,22 @@ h1.product__title {
 .button, .shopify-challenge__button, .customer button {
     background: #fff !important;
     color: #000 !important;
-     font-size: 13px;
+     font-size: 13px !important;
     font-weight: 500 !important;
     font-family: 'Open Sans', sans-serif !important;
-    letter-spacing: 0;
+    letter-spacing: 0 !important;
 }
 
 .button span, .shopify-challenge__button span, .customer button span {
 color: #000 !important;
-    font-size: 13px;
+    font-size: 13px !important;
     font-weight: 500 !important;
     font-family: 'Open Sans', sans-serif !important;
-    letter-spacing: 0;
+    letter-spacing: 0 !important;
 }
 
 label.form__label {
-    font-size: 13px;
+    font-size: 13px !important;
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif !important;
 }
@@ -135,10 +135,10 @@ label.form__label {
 /*cart*/
 
 a.underlined-link {
-    font-size: 13px;
+    font-size: 13px !important;
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif !important;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 product-option {
@@ -181,18 +181,18 @@ summary.facets__summary.caption-large.focus-offset, p#ProductCountDesktop {
 
 
 .collection-hero__inner.page-width {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 h1.collection-hero__title {
-     font-size: 19px;
+     font-size: 19px !important;
      font-family: 'Open Sans', sans-serif !important;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 /*pages*/
@@ -214,8 +214,8 @@ dd h4, dd h3 {
 }
 
 h1.main-page-title.page-title {
-    font-size: 19px;
-    text-align: center;
+    font-size: 19px !important;
+    text-align: center !important;
 }
 
 #ContactForm input {
