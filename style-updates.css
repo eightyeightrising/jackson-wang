@@ -241,3 +241,7 @@ a.menu-drawer__menu-item.list-menu__item.link.link--text {
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif !important;
 }
+
+details[open] .modal-overlay:after {
+    background-color: rgba(0,0,0,.7) !important;
+}
