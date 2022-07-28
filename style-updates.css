@@ -10,6 +10,12 @@
     display: none !important;
 }
 
+.announcement-bar__message {
+  font-size: 11px !important;
+    font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 .grid__item .card-information__wrapper {
     display: flex !important;
     flex-direction: column !important;
